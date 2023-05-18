@@ -120,6 +120,17 @@ nav .container{
 .fa-chevron-down{
     transition: .5s;
 }
+.main-link p i{
+    background: #DADADA;
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    padding-left: 2px;
+    margin-right: 10px;
+}
 
 
 
