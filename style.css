@@ -39,13 +39,18 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.nav-box{
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .nav-box1{
-    margin-right: 300px;
+    margin-right: 240px;
+    cursor: pointer;
 }
 .nav-box2{
     margin-left: 270px;
+    cursor: pointer;
 }
 nav .container{
     padding-top: 20px;
