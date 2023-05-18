@@ -138,6 +138,12 @@ nav .container{
     .container{
         width: 1040px;
     } 
+    .nav-box1{
+        margin-right: 100px;
+    }
+    .nav-box2{
+        margin-left: 100px;
+    }
 }
 
 @media(max-width: 1060px){
@@ -156,12 +162,21 @@ nav .container{
     .container{
         width: 740px;
     } 
+    .nav-box1{
+        margin-right: 0;
+    }
+    .nav-box2{
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 760px){
     .container{
         width: 640px;
     } 
+    .nav-box{
+       display: none;
+    }
 }
 
 @media(max-width: 660px){
@@ -180,6 +195,10 @@ nav .container{
     .container{
         width: 340px;
     } 
+    .nav-box2 a{
+        width: 110px;
+        text-align: center;
+    }
 }
 
 @media(max-width: 360px){
