@@ -45,12 +45,35 @@ header{
     cursor: pointer;
 }
 .nav-box1{
-    margin-right: 240px;
+    margin-right: 250px;
     cursor: pointer;
 }
 .nav-box2{
-    margin-left: 270px;
+    margin-left: 240px; 
+    border-radius: 50px;
+    border: 1.5px solid #FFFFFF;
+}
+.nav-box2 a{
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.1599999964237213px;
+    height: 50px;
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+    
+   
+    color: aliceblue;
+}
+.nav-box2:hover{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    
+}
+.nav-box2 a:hover{
+    color: black;
 }
 nav .container{
     padding-top: 20px;
