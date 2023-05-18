@@ -49,7 +49,7 @@ header{
     cursor: pointer;
 }
 .nav-box2{
-    margin-left: 240px; 
+    margin-left: 210px; 
     border-radius: 50px;
     border: 1.5px solid #FFFFFF;
 }
@@ -59,12 +59,10 @@ header{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.1599999964237213px;
-    height: 50px;
-    padding-top: 10px;
+    height: 40px;
+    padding-top: 7px;
     width: 150px;
     text-align: center;
-    
-   
     color: aliceblue;
 }
 .nav-box2:hover{
@@ -75,6 +73,19 @@ header{
 .nav-box2 a:hover{
     color: black;
 }
+.noviy{
+    position: relative;
+}
 nav .container{
     padding-top: 20px;
+}
+.noviy:hover .noviy-all{
+    display: block;
+}
+.noviy-all{
+    display: none;
+    position: absolute;
+}
+.noviy:hover .fa-chevron-down{
+    transform: rotate(180deg);
 }
