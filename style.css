@@ -116,9 +116,11 @@ nav .container{
 .noviy:hover .fa-chevron-down{
     transform: scaleY(-1.3);
     transition: .5s;
+    
 }
 .fa-chevron-down{
     transition: .5s;
+    cursor: pointer;
 }
 .main-link p i{
     background: #DADADA;
@@ -130,6 +132,7 @@ nav .container{
     font-size: 13px;
     padding-left: 2px;
     margin-right: 10px;
+    cursor: pointer;
 }
 .main-link p{
     font-size: 15px;
@@ -138,6 +141,7 @@ nav .container{
     letter-spacing: -0.1599999964237213px;
     color:#FFFFFF;
     margin-top: 2px;
+    cursor: pointer;
 }
 
 .main-link{
@@ -155,6 +159,7 @@ nav .container{
     border-radius: 50px;
     font-size: 14px;
     color: white;
+    cursor: pointer;
     font-weight: 300;
     transition: .5s;
 }
@@ -162,6 +167,26 @@ nav .container{
     background: #DADADA;
     transition: .5s;
     color: black;
+}
+.main-text{
+    width: 700px;
+    margin-top: 70px;
+}
+.main-text strong{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+.main-text-p1{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
 }
 
 
